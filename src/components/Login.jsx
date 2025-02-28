@@ -161,7 +161,7 @@ const Login = () => {
           </div>
           <div className="mt-6 text-left">
             {isSignIn ? <p className="text-gray-400">
-              New to Netflix?{' '}
+              New ?{' '}
               <span href="#" className="text-white hover:underline cursor-pointer" 
               onClick={handleSignIn}>
                 Sign up now.
