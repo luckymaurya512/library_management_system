@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import background from "../assets/bg-netflix.jpg";
+// import background from "../assets/bg-netflix.jpg";
 import { checkValidData } from "../utils/validate";
 import { useRef } from "react";
 import {  createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
@@ -96,9 +96,9 @@ const Login = () => {
   return (
     <div className="relative min-h-screen bg-gray-900">
       <Header />
-      <div className="absolute inset-0 z-0">
+      {/* <div className="absolute inset-0 z-0">
         <img src={background} className="w-full h-full object-cover" alt="background" />
-      </div>
+      </div> */}
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 z-10">
         <div className="bg-black bg-opacity-75 px-16 py-12 rounded-lg shadow-lg "style={{ width: '30%' }}>
           <h2 className="text-3xl font-bold text-white mb-6">{isSignIn ? "Sign In" : "Sign Up"}</h2>
