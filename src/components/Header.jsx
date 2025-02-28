@@ -52,7 +52,7 @@ const Header = () => {
           />
           {isDropdownVisible && (
             <div
-              className="absolute right-0 mt-2 w-52 bg-gray-900 text-white rounded-lg shadow-lg border border-gray-700"
+              className="absolute right-0 mt-2 w-52 bg-gray-900 text-white rounded-lg shadow-lg z-50 border border-gray-700"
               ref={dropdownRef}
             >
               <div className="p-3 flex items-center space-x-3 border-b border-gray-700">
