@@ -37,7 +37,7 @@ const Header = () => {
   };
 
   return (
-    <div className="z-20 bg-black px-8 py-3 flex justify-between items-center shadow-md">
+    <div className="z-20 bg-[#1F2937] px-8 py-3 flex justify-between items-center shadow-md">
       {/* Left Side - Logo */}
       <h1 className="text-xl font-bold text-white">📚 Library</h1>
 
